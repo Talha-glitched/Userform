@@ -1,0 +1,59 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    border: 2px solid black;
+    height: 860px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.inner{
+    border: 2px solid black;
+    display: flex;
+    height: 200px;
+}
+.left{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.right{
+    justify-content: space-evenly;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    margin-top: 34px;
+    
+}
+button{
+    display: flex;
+    color: black;
+    border: 3px solid black;
+    width: 100px;
+    margin: 20px;
+}
+button:hover{
+    background-color: gray;
+    
+}
+#user{
+    margin: 4px;
+    padding: 4px;
+}
+#pass{
+    margin: 4px;
+    padding: 4px;
+}
+@media screen and (max-width:600px) {
+    .container{
+        background-color: aqua;
+    }
+}
